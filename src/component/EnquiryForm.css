@@ -1,0 +1,63 @@
+/* src/components/EnquiryForm.css */
+.enquiry-form {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 90px;
+    right: 55px;
+    margin-top: 20px;
+  }
+  
+  .enquiry-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .enquiry-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .enquiry-form input,
+  .enquiry-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .enquiry-form .checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .enquiry-form .checkbox-container input {
+    margin-right: 10px;
+  }
+  
+  .enquiry-form .checkbox-container label {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .submit-button {
+    background-color: #00bfff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .submit-button:hover {
+    background-color: #0099cc;
+  }
+  

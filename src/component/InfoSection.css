@@ -1,0 +1,62 @@
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0A1E5C; /* Deep blue background color */
+    padding: 20px;
+    color: white;
+  }
+  
+  .info-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .info-image img {
+    max-height: 150px;
+  }
+  
+  .info-details {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .info-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .info-text h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .info-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: aliceblue;
+  }
+  .maincontainer{
+    margin: 100px;
+  }
+  .info-text {
+    text-align: left;
+  }
+  
+ 
+  

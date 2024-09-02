@@ -1,0 +1,62 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+    padding-top: 100px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+}
+
+.rank-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #002147;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ranking-logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.carousel-button.left {
+    left: 10px;
+}
+
+.carousel-button.right {
+    right: 10px;
+}

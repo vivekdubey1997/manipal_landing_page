@@ -1,23 +1,44 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Navbar from './component/Navabar';
+import EnquiryForm from './component/EnquiryForm';
+import StatsCard from './component/StatsCard';
+import RankingsAccreditations from './component/RankingsAccreditations';
+import InfoSection from './component/InfoSection';
+import MAHEAdvantages from './component/MAHEAdvantages';
+import ImageComponent from './component/ImageComponent.js';
+import CardComponent from './component/CardComponent .js';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <EnquiryForm />
+      <StatsCard />
+      <RankingsAccreditations />
+      <div style={{display:'flex', justifyContent:'space-evenly',}}>
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+        <div style={{ maxWidth: '350px', position: 'relative' }}>
+          <ImageComponent />
+          <CardComponent />
+        </div>
+        <div style={{ maxWidth: '350px', position: 'relative' }}>
+          <ImageComponent />
+          <CardComponent />
+        </div>
+        <div style={{ maxWidth: '350px', position: 'relative' }}>
+          <ImageComponent />
+          <CardComponent />
+        </div>
+      </div>
+      </div>
+      <InfoSection/>
+      <MAHEAdvantages />
+      
     </div>
   );
 }

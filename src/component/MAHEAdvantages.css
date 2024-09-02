@@ -1,0 +1,86 @@
+/* MAHEAdvantages.css */
+
+.mahe-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  .mahe-left-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  
+  .mahe-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-right: 250px;
+  }
+  
+  .mahe-subtitle {
+    font-weight: normal;
+  }
+  
+  .mahe-advantages-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 2;
+  }
+  
+  .mahe-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .mahe-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .mahe-right-section {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .mahe-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .mahe-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .mahe-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .mahe-enroll-button {
+    background-color: #002d72;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .button{
+    display: flex;
+    justify-content: space-between;
+    border: 10px;
+  }
+  
+  .h2{
+    padding-right: 200px;
+  }
+  
